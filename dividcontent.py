@@ -16,7 +16,7 @@ html_content = '''
 soup = BeautifulSoup(html_content, 'html.parser')
 
 # Find all div elements with class 'container'
-containers = soup.find_all('div', class_='container')
+containers = soup.find_all('div', class_='winning-numbers-card-bottom-numbers-container')
 
 # Iterate over each container
 for container in containers:
