@@ -2,14 +2,14 @@ from bs4 import BeautifulSoup
 
 # Sample HTML content
 html_content = '''
-<div class="container">
-    <div id="test">Div 1</div>
-    <div id="other">Div 2</div>
-</div>
-<div class="container">
-    <div id="test">Div 3</div>
-    <div id="test">Div 4</div>
-</div>
+<div class="winning-numbers-card-bottom-numbers-container">
+    <div id="mm-wn-1" class="circle light ">content 1</div>
+    <div id="mm-wn-2" class="circle light ">content 2</div>
+    <div id="mm-wn-3" class="circle light ">content 3</div>
+    <div id="mm-wn-4" class="circle light ">content 4</div>
+    <div id="mm-wn-5" class="circle light ">content 5</div>
+    <div id="mm-wn-megaball" class="circle megaball ">content 6</div>
+    <div id="mm-wn-megaplier" class="circle multiplier ">content 7</div>
 '''
 
 # Parse the HTML content
