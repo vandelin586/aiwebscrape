@@ -12,4 +12,3 @@ for div in divs:
     id = div.get('id')
     content = div.text
     print(f'id: {id}, content: {content}')
-    '.'
